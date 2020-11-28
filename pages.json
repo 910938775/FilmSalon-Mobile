@@ -1,0 +1,163 @@
+{
+    // pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    "pages" : [
+        {
+            "path" : "pages/index/index",
+            "style" : {
+                // 导航栏标题
+                "navigationBarTitleText" : "拉片网"
+            }
+        },
+        {
+            "path" : "pages/search/search",
+            "style" : {
+                // 导航栏标题
+                "navigationBarTitleText" : "搜索"
+            }
+        },
+        {
+            "path" : "pages/more/more",
+            "style" : {
+                // 导航栏标题
+                "navigationBarTitleText" : "更多"
+            }
+        },
+		{
+		    "path" : "pages/user/user",
+		    "style" : {
+		        // 导航栏标题
+		        "navigationBarTitleText" : "个人中心"
+		    }
+		},
+		{
+		    "path" : "pages/person/login/login",
+		    "style" : {
+		        // 导航栏标题
+		        "navigationBarTitleText" : "登陆"
+		    }
+		},
+		{
+		    "path" : "pages/person/reg/reg",
+		    "style" : {
+		        // 导航栏标题
+		        "navigationBarTitleText" : "注册"
+		    }
+		},
+		{
+		    "path" : "pages/person/reg-pwd/reg-pwd",
+		    "style" : {
+		        // 导航栏标题
+		        "navigationBarTitleText" : "手机注册"
+		    }
+		},
+		{
+		    "path" : "pages/person/find-pwd/find-pwd",
+		    "style" : {
+		        // 导航栏标题
+		        "navigationBarTitleText" : "找回密码"
+		    }
+		},
+		{
+		    "path" : "pages/film/filmsLibrary",
+		    "style" : {
+		        // 导航栏标题
+		        "navigationBarTitleText" : "资料馆"
+		    }
+		},
+		{
+		    "path" : "pages/film/filmsInfo",
+		    "style" : {
+		        // 导航栏标题
+		        "navigationBarTitleText" : "资料馆"
+		    }
+		}
+    ],
+    // 全局样式：设置应用的状态栏、导航条、标题、窗口背景色等
+    "globalStyle" : {
+        // 导航栏风格：black/white
+        "navigationBarTextStyle" : "white",
+        // 导航栏标题
+        "navigationBarTitleText" : "拉片网",
+        // 导航栏背景色
+        "navigationBarBackgroundColor" : "#008B8B",
+        // 下拉刷新
+        "enablePullDownRefresh" : true,
+        // 上拉触地距离：默认 50px
+        "onReachBottomDistance" : 50,
+        // 旋转屏幕
+        "pageOrientation" : "portrait",
+        // 取消默认导航栏
+        "navigationStyle" : "custom",
+		
+        // 窗口背景色：微信小程序
+        "backgroundColor" : "#DCDCDC",
+        // 下拉刷新背景色：微信小程序
+        "backgroundTextStyle" : "dark"
+    },
+    // tabBar：底部导航栏
+    "tabBar" : {
+        // 字体颜色
+        "color" : "#FFEBCD",
+        // 背景颜色
+        "backgroundColor" : "#20B2AA",
+        // 选中后字体颜色
+        "selectedColor" : "#000000",
+        // 边框颜色：black/white (APP支持其他颜色)
+        "borderStyle" : "black",
+        // 位置：微信小程序支持 top
+        "position" : "bottom",
+        // 列表内容
+        "list" : [
+            {
+                // 页面路径
+                "pagePath" : "pages/index/index",
+                // 文字标题
+                "text" : "首页",
+                // 图标路径
+                "iconPath" : "static/Images/index/Home.svg",
+                // 选中后图标路径
+                "selectedIconPath" : "static/Images/index/Home_select.svg"
+            },
+            {
+                // 页面路径
+                "pagePath" : "pages/film/filmsLibrary",
+                // 文字标题
+                "text" : "资料馆",
+                // 图标路径
+                "iconPath" : "static/Images/index/Film.svg",
+                // 选中后图标路径
+                "selectedIconPath" : "static/Images/index/Film_select.svg"
+            },
+            {
+                // 页面路径
+                "pagePath" : "/",
+                // 文字标题
+                "text" : "学术室",
+                // 图标路径
+                "iconPath" : "static/Images/index/Academic.svg",
+                // 选中后图标路径
+                "selectedIconPath" : "static/Images/index/Academic_select.svg"
+            },
+            {
+                // 页面路径
+                "pagePath" : "/",
+                // 文字标题
+                "text" : "学习",
+                // 图标路径
+                "iconPath" : "static/Images/index/Learn.svg",
+                // 选中后图标路径
+                "selectedIconPath" : "static/Images/index/Learn_select.svg"
+            },
+            {
+                // 页面路径
+                "pagePath" : "pages/user/user",
+                // 文字标题
+                "text" : "个人中心",
+                // 图标路径
+                "iconPath" : "static/Images/index/Me.svg",
+                // 选中后图标路径
+                "selectedIconPath" : "static/Images/index/Me_select.svg"
+            }
+        ]
+    }
+}
